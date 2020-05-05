@@ -1,7 +1,7 @@
 ---
+layout: post
 title: ironic console
 date: 2017-05-05
-categories: ["openstack"]
 categories: ironic
 ---
 
