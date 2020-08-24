@@ -46,10 +46,10 @@ packstack --answer-file <filename>
 
 安装完成，用户根目录下会生成 keystonerc_admin 用于CLI。
 
-> 若packstack命令行不指定 --provision-demo=n，或answerfile中 CONFIG_PROVISION_DEMO=y，安装过程会下载 cirrors 映像，可以安装完毕自行添加。
+> 若packstack命令行不指定 `--provision-demo=n`，或answerfile中 `CONFIG_PROVISION_DEMO=y`，安装过程会下载 cirrors 映像，可以安装完毕自行添加。
 
-> puppet安装在/usr/share/openstack-puppet，供打patch参考。
+> puppet安装在`/usr/share/openstack-puppet`，供打patch参考。
 
 > Q版本运行packstack报错找不到pkg_resource，安装python2-setuptools
 
-> 可参考puppet-<project>的代码如何实现组件的配置，如puppet-ironic中关于pxe的配置。
+> 可参考 `puppet-<project>` 的代码如何实现组件的配置，如puppet-ironic中关于pxe的配置。
