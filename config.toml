@@ -1,4 +1,4 @@
-baseURL = "http://kaifeng.github.io/posts"
-languageCode = "en-us"
+baseURL = "http://kaifeng.github.io/posts/"
+languageCode = "zh-CN"
 title = "Posts"
 theme = 'ananke'
